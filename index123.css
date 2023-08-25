@@ -1,0 +1,1111 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    overflow-x: hidden;
+    
+}
+/*==============landing page=========*/
+
+
+#nav{
+    display: flex;
+    justify-content: center;
+    background-image: url(./1.jpg);
+    margin: 0px;
+    border: 2px solid black;
+    position: sticky ;
+    top: 0px;
+    background-color: aqua;
+    overflow-x: hidden;
+}
+#nav img{
+    margin-right: 500px;
+    display: none;
+}
+
+#nav span{
+
+    list-style-type: none;
+    margin: 30px;
+}
+
+#nav span a{
+    text-decoration: none;
+    font-size: 17px;
+}
+.down
+{
+    border: 1px solid black;
+    padding: 15px;
+    background-color:pink;
+    color: white;
+    margin-left: 200px;
+}
+.down:hover
+{
+    background-color: white;
+    color:rgb(206, 76, 98);
+}
+
+.parentdiv
+{
+    display: flex;
+    justify-content: center;
+    background-color:aqua ;
+
+}
+
+.childdiv1
+{
+margin-top: 200px;
+margin-right: 200px;
+}
+
+.childdiv2 img
+{
+ width: 500px;
+ margin-right: 150px;
+}
+
+.say
+{
+    border: 1px solid black;
+    background-color:pink;
+    color: white;
+    padding: 10px;
+}
+
+.say:hover
+{
+    color: black;
+    background-color: green;
+}
+
+.togglelabel{
+    margin-left: 320px;
+    display: none;
+    position: absolute;
+    top: 10px;
+
+
+}
+.togglelabel i{
+    font-size: 30px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+@media(max-width:415px)
+{
+    #nav{
+        display: none;
+        overflow-x: hidden;
+    }
+    #nav img{
+        display:none;
+        position: fixed;
+    }
+    #nav span{
+        display: block;
+        background-color:pink;
+    }
+    .togglelabel{
+        display: block;
+    }
+    #toggle:checked~#nav{
+        display: block;
+        position: absolute;
+        background-color: white;
+        z-index: 999;
+        top: 70px;
+        width: 100%; 
+        margin-top: 20px;
+        transition: margin-top 2s;
+
+    }
+    .down{
+        padding-left: 0px;
+    }
+    .parentdiv{
+        display: block;
+        justify-content: center;
+        padding-top: 10px;
+        padding-left: 0px;
+        padding-right:0px;
+        background-color: aqua;
+        overflow: hidden;
+        height: 500px;
+    }
+.childdiv2 img{
+    width: 400px;
+    margin-left: 0px;
+    position: relative;
+    z-index: 1;
+    left: 200px;
+    top: -350px;
+}
+.childdiv1{
+    margin-top: 10px;
+    position: relative;
+    z-index: 2;
+    left: 50px;
+    top: 50px;
+}
+}
+/*==========my client=========*/
+.myclient
+{
+    background-color: rgb(6, 6, 63);
+    color: white;
+    overflow-x: hidden;
+}
+
+.myclient div
+{
+    font-display: flex;
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-size: 30px;
+    padding: 30px 0px 30px 0px;
+}
+
+.myclient div span img{
+    margin: 0px 40px 0px 40px;
+    color: black;
+}
+@media(max-width:415px)
+{
+    #myclient{
+        display: block;
+    }
+    .myclient div span img{
+        margin: 0px 80px 0px 80px;
+    }
+}
+
+
+/*dedication*/
+
+
+.dedication div{
+    border-left: 1px solid black;
+    margin: 2px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 30px;
+}
+
+.b1
+{
+    border: none !important;
+}
+.dedication 
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    margin: 0px -230px 0px -230px;
+    overflow-x: hidden;
+}
+.dedication div img
+{
+    width: 70px;
+}
+.dedication span
+{
+    color: black
+}
+.dedication div span
+{
+    font-size: 20px;
+}
+@media(max-width:415px)
+{
+   .dedication{
+    display: block;
+    position: relative;
+    left: 170px;
+   } 
+   .dedication div{
+    border-left: none;
+   }
+   .dedication div span
+{
+    font-size: 20px;
+}
+}
+
+/*my skills*/
+
+.skills
+{
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    margin-left: 70px;
+    overflow-x: hidden; 
+}
+.ski{
+    font-size: 40px;
+    margin-right: 200px;
+}
+
+#sk
+{
+    color: red; 
+}
+#ev
+{
+    color: rgb(96, 60, 129);
+    font-size: 30px;
+}
+
+#tex
+{
+    color: black;
+    font-size: 20px;
+}
+
+#content{
+    background-image:url(image/1.jpg);
+    height: 400px;
+    width: 480px;
+    padding: 40px;
+}
+
+#content span{
+    border: 3px solid rgb(46, 45, 100);
+    margin: 10px;
+    color: rgb(30, 30, 80);
+    font-weight: bold;
+    padding:20px 20px 20px 20px;
+    background-color: white;
+}
+#tr{
+    background-color: red;
+    margin-left: 40px;
+    width: 450px;
+    height: 340px;
+    padding: 40px;
+    margin-top: 50px;
+}
+@media(max-width:415px)
+{
+    .skills{
+        display: block;
+        float: left;
+        letter-spacing: 0px;
+    }
+ #sk
+    {
+        color: red;
+        font-size: 15px;
+        margin-left: 2px;
+    }
+    #ev
+    {
+        color: rgb(96, 60, 129);
+        font-size: 20px;
+    }
+    
+    #tex
+    {
+        color: black;
+        font-size: 15px;
+    }
+    .contact{
+        background-image:url(image/1.jpg);
+        height: 200px;
+        width: 100px;
+        position: relative;
+        left:-100px;
+        right: 0px;
+    }
+    
+#content span{
+    border: 1px solid rgb(46, 45, 100);
+    color: rgb(30, 30, 80);
+    font-weight: bold;
+    background-color: white;
+}
+#tr{
+    background-color: red;
+    width: 280px;
+    height: 180px;
+    font-size: 11px;
+    margin-left: -90px;
+margin-top: 50px;
+}
+
+}
+
+/*=============m==================*/
+
+.m
+{
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden; 
+   
+}
+
+.m1
+{
+    color: rgb(26, 26, 81);
+    font-size: 100px;
+    margin: 40px;
+    border: 3px;
+}
+.m2
+{
+    color: rgb(18, 18, 118);
+    font-size: 30px;
+    margin: 40px;
+    padding: 2px;
+    border: 2px;
+}
+.m11
+{
+    color:rgb(47, 47, 125);
+    font-size: 100px;
+    margin: 40px;
+    border: 2px;
+}
+
+.m22
+{
+    color: 1px solid rgb(40, 40, 138);
+    font-size: 30px; 
+    margin: 40px;
+    border: 2px;
+}
+.m3{
+    font-size: 100px;
+    color: rgb(28, 28, 98);
+    border: 2px;
+    margin: 40px;
+}
+.m33{
+    color:rgb(22, 22, 68);
+    font-size: 30px;
+    margin: 10px;
+    border: 2px;
+    padding-top: 21px;
+}
+@media(max-width:415px)
+{
+    .m{
+        display: block;
+        width: 300px;
+        justify-content: center !important;
+        margin-left:80px
+    }
+    .m1
+{
+    color: rgb(26, 26, 81);
+    font-size: 100px;
+    margin-left:0px;
+    border: 3px;
+}
+}
+
+.years
+{
+width: 300px;
+border: 2px solid black;
+display: flex;
+justify-content: center;
+margin: 0px;
+position: absolute;
+top: 2580px;
+left: 30px;
+background-color: white;
+}
+
+.years1
+{
+    color: orangered;
+    font-size: 70px;
+    font-weight: 60px;
+    margin: 0px;
+}
+
+.years2
+{
+color: blue;
+font-size: 25px;
+
+}
+
+/*==============about===============*/
+
+.imgi{
+    overflow-x: hidden;
+    display: flex; 
+    justify-content: center;
+    background-color: yellow;
+}
+.hire{
+    border: 2px solid black;
+}
+.mydata{
+    padding-left: 200px;
+}
+@media(max-width:415px)
+{
+    .imgi{
+        display: block;
+        background-color: yellow;
+justify-content: center;
+padding: 50px 10px 50px 10px;
+overflow-x: hidden;
+    }
+    .imgi div{
+        margin: 0px 0px 0px 0px;
+    }
+    .boy img{
+    font-size: 0px;
+margin-left:0px;
+padding-right: 0px;
+width: 300px;
+    }
+    .mydata{
+        padding: 0px;
+    }
+    .abu{
+        font-size: 20px;   }
+    
+.years
+{
+width: 220px;
+border: 0.5px solid black;
+display: flex;
+justify-content: center;
+margin: 0px;
+position: absolute;
+top: 3940px;
+left: 30px;
+background-color: white;
+}
+
+.years1
+{
+    color: orangered;
+    font-size: 25px;
+    font-weight: 60px;
+    margin: 0px;
+}
+
+.years2
+{
+color: blue;
+font-size: 15px;
+
+}
+}
+
+/*===========my girl=============*/
+
+.a1{
+   display: flex;
+    justify-content: center;
+    padding: 120px;
+    overflow-x: hidden;
+}
+.aa1 img{
+    width: 700px;
+    padding-right: 20px;
+}
+.a3{
+    font-size: 30px;
+    color: rgb(7, 7, 77);
+    display: flex;
+}
+@media(max-width:415px)
+{
+    .a1{
+display: block;
+justify-content: center;
+padding: 0px;
+    }
+    .aa1 img{
+        width: 400px;
+        padding-right: 20px;
+    }
+    .a3{
+        font-size: 20px;
+        color: rgb(7, 7, 77);
+    }
+}
+
+/*=============five images==============*/
+
+.five{
+    display: flex;
+    overflow-x: hidden;
+}
+.five div{
+    border: 2px solid rgb(7, 7, 34);
+    width: 47%;
+    overflow: hidden;
+    height: 400px;
+    margin: 2%;
+}
+.five div img{
+    width: 100%;
+    height: 400px;
+}
+.five div img:hover{
+    scale: 1.2;
+    transition: scale 0.5s ease-out;
+}
+.three{
+    display: flex;
+}
+.three div {
+    border: 2px solid rgb(7, 7, 34);
+    width: 47%;
+    overflow: hidden;
+    height: 400px;
+    margin: 2%;
+}
+.three div img{
+    width: 100%;
+    height: 400px;
+}
+.three div img:hover{
+    scale: 1.2;
+    transition: scale 0.5s ease-out;
+}
+@media(max-width:415px){
+    .five{
+        display: block;
+    }
+    .three{
+        display: block;
+    }
+    .five div{
+        border: 2px solid rgb(7, 7, 34);
+        width: 100%;
+        overflow: hidden;
+        height: 400px;
+        margin: 20px;
+    }
+    .five div img{
+        width: 100%;
+        height: 400px;
+    }
+    .three div{
+        border: 2px solid rgb(7, 7, 34);
+        width: 100%;
+        overflow: hidden;
+        height: 400px;
+        margin: 20px;
+    }
+}
+
+/*=============question round================*/
+
+.FAQ{
+    justify-content: center;
+    color: rgb(225, 13, 13);
+    font-size: 25px;
+    display: flex;
+    overflow-x: hidden;
+
+}
+.que span{
+    display: flex;
+    font-size: 70px;
+    color: rgb(8, 8, 63);
+    padding-left: 450px;
+}
+
+
+
+.faq1{
+    width: 900px;
+    background-color: rgb(5, 5, 65);
+    padding: 40px;
+    color: aliceblue;
+    font-size: 30px;
+}
+.faq1 span{
+    background-color: aqua;
+    font-weight: 900;
+    padding-left: 10px; 
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+.faq1a {
+width: 700px;
+background-color: rgb(8, 8, 58);
+padding: 40px;
+color: aliceblue;
+font-size: 15px;
+margin-top: 10px;
+display: none;
+}
+
+#check1:checked~.faq1a{
+    display: block;
+    transition: display 5s ease-out;
+}
+
+
+
+
+.project{
+    width: 900px;
+    background-color: rgb(5, 5, 65);
+    padding: 40px;
+    color: aliceblue;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.project span{
+    background-color: aqua;
+    font-weight: 900;
+    padding-left: 10px; 
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+.project1 {
+width: 700px;
+background-color: rgb(8, 8, 58);
+padding: 40px;
+color: aliceblue;
+font-size: 15px;
+margin-top: 10px;
+display: none;
+}
+
+#check11:checked~.project1{
+    display: block;
+    transition: display 5s ease-out;
+}
+
+.charge{
+    width: 900px;
+    background-color: rgb(5, 5, 65);
+    padding: 40px;
+    color: aliceblue;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.charge span{
+    background-color: aqua;
+    font-weight: 900;
+    padding-left: 10px; 
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+.charge1 {
+width: 700px;
+background-color: rgb(8, 8, 58);
+padding: 40px;
+color: aliceblue;
+font-size: 15px;
+margin-top: 10px;
+display: none;
+}
+
+#check111:checked~.charge1{
+    display: block;
+    transition: display 5s ease-out;
+}
+
+
+.time{
+    width: 900px;
+    background-color: rgb(5, 5, 65);
+    padding: 40px;
+    color: aliceblue;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.time span{
+    background-color: aqua;
+    font-weight: 900;
+    padding-left: 10px; 
+    padding-right: 10px;
+    border-radius: 5px;
+}
+.time1 {
+width: 700px;
+background-color: rgb(8, 8, 58);
+padding: 40px;
+color: aliceblue;
+font-size: 15px;
+margin-top: 10px;
+display: none;
+}
+
+#check1111:checked~.time1{
+    display: block;
+    transition: display 5s ease-out;
+}
+
+
+
+.offer{
+    width: 900px;
+    background-color: rgb(5, 5, 65);
+    padding: 40px;
+    color: aliceblue;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.offer span{
+    background-color: aqua;
+    font-weight: 900;
+    padding-left: 10px; 
+    padding-right: 10px;
+    border-radius: 5px;
+}
+.offer1 {
+width: 700px;
+background-color: rgb(8, 8, 58);
+padding: 30px;
+color: aliceblue;
+font-size: 15px;
+margin-top: 10px;
+margin-top: -100px;
+z-index: -3;
+position: relative;
+}
+
+#check5:checked~.offer1{
+    display: block;
+    transition: margin-top 0.5s ease-out;
+    margin-top: 10px;
+}
+@media(max-width:415px){
+    .que span{
+        display: block;
+        font-size: 30px;
+        color: rgb(8, 8, 63);
+        justify-content: center;
+        margin-left: -350px;
+        
+    }
+    
+    
+    
+    .faq1{
+        width: 420px;
+        background-color: rgb(5, 5, 65);
+        padding: 15px;
+        color: aliceblue;
+        font-size: 20px;
+    }
+    
+    .faq1a {
+    width: 380px;
+    background-color: rgb(8, 8, 58);
+    padding: 40px;
+    color: aliceblue;
+    font-size: 18px;
+    margin-top: 10px;
+    display: none;
+    }
+    
+    #check1:checked~.faq1a{
+        display: block;
+        transition: display 5s ease-out;
+    }
+    .project{
+        width: 420px;
+        background-color: rgb(5, 5, 65);
+        padding: 15px;
+        color: aliceblue;
+        font-size: 20px;
+    }
+    
+    .project1 {
+    width: 380px;
+    background-color: rgb(8, 8, 58);
+    padding: 40px;
+    color: aliceblue;
+    font-size: 18px;
+    margin-top: 10px;
+    display: none;
+    }
+    
+    #check1:checked~.project1{
+        display: block;
+        transition: display 5s ease-out;
+    }
+    .charge{
+        width: 420px;
+        background-color: rgb(5, 5, 65);
+        padding: 15px;
+        color: aliceblue;
+        font-size: 20px;
+    }
+    
+    .charge1 {
+    width: 380px;
+    background-color: rgb(8, 8, 58);
+    padding: 40px;
+    color: aliceblue;
+    font-size: 15px;
+    margin-top: 10px;
+    display: none;
+    }
+    
+    #check1:checked~.charge1{
+        display: block;
+        transition: display 5s ease-out;
+    }
+    .time1{
+        width: 420px;
+        background-color: rgb(5, 5, 65);
+        padding: 15px;
+        color: aliceblue;
+        font-size: 20px;
+    }
+    
+    .time1 {
+    width: 380px;
+    background-color: rgb(8, 8, 58);
+    padding: 40px;
+    color: aliceblue;
+    font-size: 18px;
+    margin-top: 10px;
+    display: none;
+    }
+    
+    #check1:checked~.time1{
+        display: block;
+        transition: display 5s ease-out;
+    }
+    .offer{
+        width: 420px;
+        background-color: rgb(5, 5, 65);
+        padding: 15px;
+        color: aliceblue;
+        font-size: 20px;
+    }
+    
+    .offer1{
+    width: 380px;
+    background-color: rgb(8, 8, 58);
+    padding: 40px;
+    color: aliceblue;
+    font-size: 18px;
+    margin-top: 10px;
+    display: none;
+    }
+    
+    #check1:checked~.offer1{
+        display: block;
+        transition: display 5s ease-out;
+    } 
+    .time{
+        width: 420px;
+        background-color: rgb(5, 5, 65);
+        padding: 15px;
+        color: aliceblue;
+        font-size: 20px;
+    }
+    
+    .time1{
+    width: 380px;
+    background-color: rgb(8, 8, 58);
+    padding: 40px;
+    color: aliceblue;
+    font-size: 18px;
+    margin-top: 10px;
+    display: none;
+    }
+    
+    #check1:checked~.time1{
+        display: block;
+        transition: display 5s ease-out;
+    }
+}
+
+/*==========work==========*/
+
+.work1 {
+    justify-content: center;
+    display: flex;
+    font-size: 80px; 
+    color: rgb(7, 7, 54);
+    overflow-x: hidden;
+    margin-top: 50px;
+    top: 50px;
+}
+
+.work
+{
+    border: 1px solid black;
+    padding: 15px;
+    background-color:white;
+    color: black;
+    position: absolute;
+    top: 5700px;
+    left: 550px;
+    width: 20%;
+    font-size: 28px;
+}
+
+.work:hover
+{
+    background-color:blue;
+    color:white(7, 7, 142);
+}
+@media(max-width:415px)
+{
+    .work1 {
+        justify-content: center;
+        display: block;
+        font-size: 20px; 
+        color: rgb(7, 7, 54);
+        overflow-x: hidden;
+        margin-top: 50px;
+        top: 50px;
+    }
+}
+/*==========blog page==========*/
+#NEWS{
+    flex-wrap: wrap;
+}
+.blog {
+    color: red;
+    font-size: 30px;
+    display: flex;
+    margin:80px;
+    padding: 60px;
+    overflow-x: hidden;
+
+}
+.post{
+    font-size: 70px;
+    display: flex;
+    padding: 90PX;
+    margin-top: -200px;
+    color: rgb(31, 31, 107);
+}
+.myblog{
+    padding: 60px;
+    justify-content: center;
+    display: flex;
+}
+.myblog div{
+    margin: 30px;
+}
+
+.th3 {
+    border-bottom: 2px solid rgb(3, 3, 124);
+    border-bottom-color: slategray;
+}
+.cloud{
+    width: 300px;
+    border-radius: 100px;
+    overflow: hidden;
+    font-size: 30px;
+}
+.cloud img{
+    width: 300px;
+}
+.cloud img:hover{
+    width: 100px;
+    scale: 1.4;
+    transition: scale 1.4s ease-out;
+}
+
+
+.hard{
+    border-bottom: 2px solid rgb(3, 3, 124);
+    border-bottom-color: slategray;
+}
+.hard1{
+    width: 300px;
+    border-radius: 100px;
+    overflow: hidden;
+}
+.hard1 img{
+    width: 300px;
+}
+.hard1 img:hover{
+    width: 100px;
+    scale: 1.4;
+    transition: scale 1.4s ease-out;
+}
+
+.better {
+    border-bottom: 2px solid rgb(3, 3, 124);
+    border-bottom-color: slategray;
+}
+.better1 {
+    width: 300px;
+    border-radius: 100px;
+    overflow: hidden;
+    
+}
+.better1 img{
+    width: 300px;
+}
+.better1 img:hover{
+    width: 100px;
+    scale: 0.5;
+    transition: scale 0.4s ease-out;
+}
+
+/*=============form page============*/
+
+.contact{
+    display: flex;
+    justify-content: center;
+    background-image: url(https://itemsstore.net/html/trito/img/contact/background.jpg);
+    padding: 40px;
+    overflow-x: hidden;
+    flex-wrap: wrap;
+}
+.contact1{
+    margin: 100px;
+    font-size: 40px;
+}
+.contact2{
+    margin: 100px;
+    background-color: white;
+    padding: 80px;
+}
+.contact2 div input{
+    outline: none;
+    border: none;
+}
+.contact2 div{
+    padding: 20px 200px 20px 60px;
+    margin: 20px;
+    border: 2px solid rgb(3, 3, 44);
+}
+.contact2 button{
+    padding: 20px 160px 20px 160px;
+}
+.contact2 div i {
+    font-size: 30px;
+    border-radius: 50x;
+    background-color: blueviolet;
+    padding: 20px;
+    
+}
+@media(max-width:415px)
+{
+    .contact{ display: block;
+    width: 40px;
+    height: 50px;
+    justify-content: center;
+    inl
+    }
+}
+
